@@ -40,6 +40,8 @@ app.get("/",(req,res)=>{
     res.send("API is running Successfully");
 })
  }
+
+ // ---------------deployment---------------
 server.listen(PORT, ()=>{
     connectDB();
     console.log(`Server listen at prot ${PORT}`);
